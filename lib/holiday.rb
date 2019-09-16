@@ -74,7 +74,7 @@ end
 
 # TEST CODE 
 
-
+puts add_supply_to_winter_holidays(holiday_hash, "test")
 
 
 
