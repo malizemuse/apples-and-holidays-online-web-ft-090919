@@ -77,6 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
       # Join all supplies in array w/ ", "
       supplies = supplies.join(", ")
       
+      # Remove "_" from holiday names, join w/ " ", & add ":"
       holiday = holiday.to_s.split("_").collect {|string| string.capitalize}.join(" ") << ":"
       
       puts "  " + holiday + " " + supplies
