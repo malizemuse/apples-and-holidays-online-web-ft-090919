@@ -99,7 +99,7 @@ def all_holidays_with_bbq(holiday_hash)
       end
     end
     
-  # Flatten and
+  # Flatten and remove all nil elements from array
   end.flatten.compact  
   
 end
