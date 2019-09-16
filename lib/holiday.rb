@@ -55,7 +55,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   
-  holiday_hash[:winter].collect
+  array = holiday_hash[:winter].
   
 end
 
