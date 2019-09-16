@@ -93,6 +93,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.collect do |season, holidays|
     
+    # Add holidays to array list if their supply lists include "BBQ"
     holidays.collect do |holiday, items|
       if items.include?("BBQ")
         holiday
