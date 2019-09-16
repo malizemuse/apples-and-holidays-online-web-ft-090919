@@ -74,6 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts season.to_s.capitalize! << ":"
     holiday.each do |holiday, supplies|
       
+      # Join all supplies in array w/ ", "
       supplies = supplies.join(", ")
       holiday = holiday.to_s.split("_").collect {|w| w.capitalize}.join(" ")<< ":"
       
